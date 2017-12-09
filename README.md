@@ -14,6 +14,7 @@ A command line screen dimmer for laptops running Linux using Gnome Shell.
 
 ## Requirements:
 
+- argparse (Python library)
 - A laptop running Linux
 - Gnome shell (Only tested on 3.26.2, feel free to try this out and tell me if a past version works!)
 
