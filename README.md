@@ -12,6 +12,11 @@ A command line screen dimmer for laptops running Linux using Gnome Shell.
 
 - Update when charging status is changed.
 
+## Requirements:
+
+- A laptop running Linux
+- Gnome shell (Only tested on 3.26.2, feel free to try this out and tell me if a past version works!)
+
 ## Command line parameters:
 
 - `-v, --verbose` - Run the program in verbose mode. Without this, the program does not output to the shell.
