@@ -2,6 +2,16 @@
 
 A command line screen dimmer for laptops running Linux using Gnome Shell.
 
+## Features:
+
+- Quit on changing manually changing brightness.
+
+- Custom power profile.
+
+- Change backlight fade in / out speed.
+
+- Update when charging status is changed.
+
 ## Command line parameters:
 
 - `-v, --verbose` - Run the program in verbose mode. Without this, the program does not output to the shell.
@@ -31,7 +41,7 @@ A command line screen dimmer for laptops running Linux using Gnome Shell.
 - Increase time between polls
 `python3 main.py -t 5`
 
-- Specify a profile (settings file) to use
+- Specify a profile (settings file) to use (See **Settings file structure** below)
 `python3 main.py -p ~/Documents/my_profile.json`
 
 ## Settings file structure:
