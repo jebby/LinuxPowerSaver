@@ -1,0 +1,20 @@
+{
+
+	"on_battery_brightness": {
+		"high": 75,
+		"medium": 50,
+		"low": 10
+	},
+
+	"on_charge_brightness": {
+		"high": 100,
+		"medium": 75,
+		"low": 50
+	},
+
+	"levels": {
+		"low": [0, 30],
+		"medium": [31, 74],
+		"high": [75, 100]
+	}
+}
